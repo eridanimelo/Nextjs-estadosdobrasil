@@ -99,3 +99,19 @@
   -moz-box-shadow:    4px 5px 13px 0px rgba(50, 50, 50, 0.69);
   box-shadow:         4px 5px 13px 0px rgba(50, 50, 50, 0.69);
 }
+
+
+@media screen and (max-width: 720px) {
+  .area,
+  .heading_area, .heading_name{
+    display: none;
+  }
+
+  
+  .gini,
+  .heading_gini {
+    display: none;
+  }
+
+  
+}
