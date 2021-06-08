@@ -34,8 +34,7 @@ const Layout = ({ children, title = "Estados do Brasil",description, keywords,ur
     <div className={styles.container}>
       <Head>
         <title>{title}</title>
-        <link rel="icon"  type="image/x-icon" href="https://www.estadosdobrasil.com.br/favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon"  href="https://www.estadosdobrasil.com.br/favicon.ico" />
         <meta name="description" content={description} />
 
         <meta name="keywords" content={keywords}/>
