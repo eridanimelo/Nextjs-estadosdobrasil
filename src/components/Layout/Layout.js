@@ -74,9 +74,18 @@ const Layout = ({ children, title = "Estados do Brasil",description, keywords,ur
 
         <script data-ad-client="ca-pub-1004938038234969" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         
+        <script async custom-element="amp-auto-ads"
+                src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+        </script>
+
       </Head>
 
       <header className={styles.header}>
+
+      < amp-auto-ads type="adsense"
+              data-ad-client="ca-pub-1004938038234969">
+      </amp-auto-ads>
+      
         <Link href="/">
           Estados do Brasil
         </Link>

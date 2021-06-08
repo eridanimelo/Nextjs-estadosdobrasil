@@ -27,6 +27,8 @@ export default function Home({ estados }) {
       url="https://estadosdobrasil.com.br"
       description="No Estados do Brasil, podemos encontrar alguns detalhes como as bandeiras de cada estado e suas capitais e regiao."
       keywords="Bandeiras brasileiras, Bandeiras do brasil, estados brasileiros, Norte, Sul, Nordeste, Centro-Oeste, Sudeste, Capitais dos Estados, Mapa, Mapa do brasil, Regiao de cada estado.">
+
+        
       <div className={styles.inputContainer}>
         <div className={styles.counts}>O brasil possui 26 estados e um Distrito Federal</div>
 
