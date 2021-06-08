@@ -143,3 +143,11 @@
   fill: #003399 !important;
   cursor: pointer
 }
+
+.flag{
+  
+  border-radius: 8px !important;
+  -webkit-box-shadow: 4px 5px 13px 0px rgba(50, 50, 50, 0.69);
+  -moz-box-shadow:    4px 5px 13px 0px rgba(50, 50, 50, 0.69);
+  box-shadow:         4px 5px 13px 0px rgba(50, 50, 50, 0.69);
+}

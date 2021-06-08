@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { useState } from "react";
 import EstadosTabela from "../components/EstadosTabela/EstadosTabela";
 import Layout from "../components/Layout/Layout";
@@ -29,7 +28,7 @@ export default function Home({ estados }) {
       description="No Estados do Brasil, podemos encontrar alguns detalhes como as bandeiras de cada estado e suas capitais e regiao."
       keywords="Bandeiras brasileiras, Bandeiras do brasil, estados brasileiros, Norte, Sul, Nordeste, Centro-Oeste, Sudeste, Capitais dos Estados, Mapa, Mapa do brasil, Regiao de cada estado.">
       <div className={styles.inputContainer}>
-        <div className={styles.counts}>O brasil possui {estados.length} estados</div>
+        <div className={styles.counts}>O brasil possui 26 estados e um Distrito Federal</div>
 
         <div className={styles.input}>
           <SearchInput
@@ -189,7 +188,159 @@ const estadosArr = [
    "descricao":"O estado do Goiás está localizado na região Centro-Oeste do brasil e sua capital é Goiânia.",
    "img":"/assets/bandeiras/Goias.png",
    "keywords":"Bandeira, Bandeira do Goiás, Capital do Goiás, Centro-Oeste, Goiânia"
- }
+ },
+ {
+   "nome":"Maranhão",
+   "sigla":"MA",
+   "capital":"São Luís",
+   "regiao":"Nordeste",
+   "descricao":"O estado do Maranhão está localizado na região Nordeste do brasil e sua capital é São Luís.",
+   "img":"/assets/bandeiras/Maranhao.png",
+   "keywords":"Bandeira, Bandeira do Maranhão, Capital do Maranhão, Nordeste, São Luís"
+ },
+ {
+   "nome":"Mato Grosso",
+   "sigla":"MT",
+   "capital":"Cuiabá",
+   "regiao":"Centro-Oeste",
+   "descricao":"O estado do Mato Grosso está localizado na região Centro-Oeste do brasil e sua capital é Cuiabá.",
+   "img":"/assets/bandeiras/MatoGrosso.png",
+   "keywords":"Bandeira, Bandeira do Mato Grosso, Capital do Mato Grosso, Centro-Oeste, Cuiabá"
+ },
+ {
+   "nome":"Mato Grosso do Sul",
+   "sigla":"MS",
+   "capital":"Campo Grande",
+   "regiao":"Centro-Oeste",
+   "descricao":"O estado do Mato Grosso do Sul está localizado na região Centro-Oeste do brasil e sua capital é Campo Grande.",
+   "img":"/assets/bandeiras/MatoGrossoDoSul.png",
+   "keywords":"Bandeira, Bandeira do Mato Grosso do Sul, Capital do Mato Grosso do Sul, Centro-Oeste, Campo Grande"
+ },
+ {
+   "nome":"Minas Gerais",
+   "sigla":"MG",
+   "capital":"Belo Horizonte",
+   "regiao":"Sudeste",
+   "descricao":"O estado de Minas Gerais está localizado na região Sudeste do brasil e sua capital é Belo Horizonte.",
+   "img":"/assets/bandeiras/MinasGerais.png",
+   "keywords":"Bandeira, Bandeira de Minas Gerais, Capital de Minas Gerais, Sudeste, Belo Horizonte"
+ },
+ {
+   "nome":"Pará",
+   "sigla":"PA",
+   "capital":"Belém",
+   "regiao":"Norte",
+   "descricao":"O estado do Pará está localizado na região Norte do brasil e sua capital é Belém.",
+   "img":"/assets/bandeiras/Para.png",
+   "keywords":"Bandeira, Bandeira do Pará, Capital do Pará, Norte Belém"
+ },
+ {
+   "nome":"Paraíba",
+   "sigla":"PB",
+   "capital":"João Pessoa",
+   "regiao":"Nordeste",
+   "descricao":"O estado da Paraíba está localizado na região Nordeste do brasil e sua capital é João Pessoa.",
+   "img":"/assets/bandeiras/Paraiba.png",
+   "keywords":"Bandeira, Bandeira da Paraíba, Capital da Paraíba, Centro-Oeste, João Pessoa"
+ },
+ {
+   "nome":"Paraná",
+   "sigla":"PR",
+   "capital":"Curitiba",
+   "regiao":"Sul",
+   "descricao":"O estado do Paraná está localizado na região Sul do brasil e sua capital é Curitiba.",
+   "img":"/assets/bandeiras/Parana.png",
+   "keywords":"Bandeira, Bandeira do Paraná, Capital do Paraná, Sul, Curitiba"
+ },
+ {
+   "nome":"Pernambuco",
+   "sigla":"PE",
+   "capital":"Recife",
+   "regiao":"Nordeste",
+   "descricao":"O estado de Pernambuco está localizado na região Nordeste do brasil e sua capital é Recife.",
+   "img":"/assets/bandeiras/Pernambuco.png",
+   "keywords":"Bandeira, Bandeira do Pernambuco, Capital do Pernambuco, Nordeste, Recife"
+ },{
+  "nome":"Piauí",
+  "sigla":"PI",
+  "capital":"Teresina",
+  "regiao":"Nordeste",
+  "descricao":"O estado do Piauí está localizado na região Nordeste do brasil e sua capital é Teresina.",
+  "img":"/assets/bandeiras/Piaui.png",
+  "keywords":"Bandeira, Bandeira do Piauí, Capital do Piauí, Nordeste, Teresina"
+},{
+   "nome":"Rio de Janeiro",
+   "sigla":"RJ",
+   "capital":"Rio de Janeiro",
+   "regiao":"Sudeste",
+   "descricao":"O estado do Rio de Janeiro está localizado na região Sudeste do brasil e sua capital é Rio de Janeiro.",
+   "img":"/assets/bandeiras/RioDeJaneiro.png",
+   "keywords":"Bandeira, Bandeira do Rio de Janeiro, Capital do Rio de Janeiro, Sudeste, Rio de Janeiro"
+ },{
+  "nome":"Rio Grande do Norte",
+  "sigla":"RN",
+  "capital":"Natal",
+  "regiao":"Nordeste",
+  "descricao":"O estado do Rio Grande do Norte está localizado na região Nordeste do brasil e sua capital é Natal.",
+  "img":"/assets/bandeiras/RioGrandeDoNorte.png",
+  "keywords":"Bandeira, Bandeira do Rio Grande do Norte, Capital do Rio Grande do Norte, Nordeste, Natal"
+},{
+  "nome":"Rio Grande do Sul",
+  "sigla":"RS",
+  "capital":"Porto Alegre",
+  "regiao":"Sul",
+  "descricao":"O estado do Rio Grande do Sul está localizado na região Sul do brasil e sua capital é Porto Alegre.",
+  "img":"/assets/bandeiras/RioGrandeDoSul.png",
+  "keywords":"Bandeira, Bandeira do Rio Grande do Sul, Capital do Rio Grande do Sul, Sul, Porto Alegre"
+},{
+  "nome":"Rondônia",
+  "sigla":"RO",
+  "capital":"Porto Velho",
+  "regiao":"Norte",
+  "descricao":"O estado de Rondônia está localizado na região Norte do brasil e sua capital é Porto Velho.",
+  "img":"/assets/bandeiras/Rondonia.png",
+  "keywords":"Bandeira, Bandeira de Rondônia, Capital de Rondônia, Norte, Porto Velho"
+},{
+  "nome":"Roraima",
+  "sigla":"RR",
+  "capital":"Boa Vista",
+  "regiao":"Norte",
+  "descricao":"O estado de Roraima está localizado na região Norte do brasil e sua capital é Boa Vista.",
+  "img":"/assets/bandeiras/Roraima.png",
+  "keywords":"Bandeira, Bandeira de Roraima, Capital de Roraima, Norte, Boa Vista"
+},{
+  "nome":"Santa Catarina",
+  "sigla":"SC",
+  "capital":"Florianópolis",
+  "regiao":"Sul",
+  "descricao":"O estado de Santa Catarina está localizado na região Sul do brasil e sua capital é Florianópolis.",
+  "img":"/assets/bandeiras/SantaCatarina.png",
+  "keywords":"Bandeira, Bandeira de Santa Catarina, Capital de Santa Catarina, Sul, Florianópolis"
+},{
+  "nome":"São Paulo",
+  "sigla":"SP",
+  "capital":"São Paulo",
+  "regiao":"Sudeste",
+  "descricao":"O estado de São Paulo está localizado na região Sudeste do brasil e sua capital é São Paulo.",
+  "img":"/assets/bandeiras/SaoPaulo.png",
+  "keywords":"Bandeira, Bandeira de São Paulo, Capital de São Paulo, Sudeste, São Paulo"
+},{
+  "nome":"Sergipe",
+  "sigla":"SE",
+  "capital":"Aracaju",
+  "regiao":"Nordeste",
+  "descricao":"O estado do Sergipe está localizado na região Nordeste do brasil e sua capital é Aracaju.",
+  "img":"/assets/bandeiras/Sergipe.png",
+  "keywords":"Bandeira, Bandeira do Sergipe, Capital do Sergipe, Nordeste, Aracaju"
+},{
+  "nome":"Tocantins",
+  "sigla":"TO",
+  "capital":"Palmas",
+  "regiao":"Norte",
+  "descricao":"O estado do Tocantins está localizado na região Norte do brasil e sua capital é Palmas.",
+  "img":"/assets/bandeiras/Tocantins.png",
+  "keywords":"Bandeira, Bandeira do Tocantins, Capital do Tocantins, Norte, Palmas"
+}
 
   
 ];
