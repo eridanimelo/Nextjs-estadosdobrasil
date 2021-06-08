@@ -51,8 +51,8 @@ const Layout = ({ children, title = "Estados do Brasil",description, keywords,ur
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-        <link rel="manifest" href="manifest.webmanifest" />
-        <meta name="theme-color" content="#1976d2" />
+        <link rel="manifest" href="https://www.estadosdobrasil.com.br/manifest.webmanifest" />
+        <meta name="theme-color" content="#20833C" />
 
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
