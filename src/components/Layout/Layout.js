@@ -34,11 +34,10 @@ const Layout = ({ children, title = "Estados do Brasil",description, keywords,ur
     <div className={styles.container}>
       <Head>
         <title>{title}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon"  type="image/x-icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content={description} />
 
-        <meta http-equiv="content-language" content="pt-br" />
         <meta name="keywords" content={keywords}/>
 
         <meta property="og:locale" content="pt_BR" />
@@ -48,11 +47,8 @@ const Layout = ({ children, title = "Estados do Brasil",description, keywords,ur
         <meta property="og:url" content={url} />
         <meta property="og:site_name" content="Estados do Brasil" />
 
-
-
         <meta property="og:image" content={imgUrl} />
 
-        <link rel="icon" type="image/x-icon" href="favicon.ico" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
@@ -77,9 +73,8 @@ const Layout = ({ children, title = "Estados do Brasil",description, keywords,ur
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
 
-
         <script data-ad-client="ca-pub-1004938038234969" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
+        
       </Head>
 
       <header className={styles.header}>
