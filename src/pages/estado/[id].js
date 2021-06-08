@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Layout from "../../components/Layout/Layout";
 import styles from "./Estado.module.css";
 
@@ -12,8 +11,17 @@ const getEstado = async (sigla) => {
 };
 
 const Estado = ({ estado }) => {
+
+  const urlT = 'https://estadosdobrasil.com.br/estado/'+estado.sigla;
   return (
-    <Layout title={estado.nome}>
+
+    <Layout 
+      imgUrl={estado.img}
+      title={estado.nome}
+      description={estado.descricao}
+      url={urlT}
+      keywords={estado.keywords}>
+
       <div className={styles.container}>
         <div className={styles.container_left}>
           <div className={styles.overview_panel}>
@@ -415,7 +423,8 @@ const estadosArr = [
      "capital":"Rio Branco",
      "regiao":"Norte",
      "descricao":"O estado do Acre está localizado na região Norte do brasil e sua capital é Rio Branco.",
-     "img":"/assets/bandeiras/Acre.png"
+     "img":"/assets/bandeiras/Acre.png",
+     "keywords":"Bandeira, Bandeira do Acre, Capital do Acre, Norte"
   },
   {
     "nome":"Alagoas",
@@ -423,7 +432,8 @@ const estadosArr = [
     "capital":"Maceió",
     "regiao":"Nordeste",
     "descricao":"O estado de Alagoas está localizado na região Nordeste do brasil e sua capital é Maceió.O estado do Acre está localizado na região Norte do brasil e sua capital é Rio Branco.",
-    "img":"/assets/bandeiras/Alagoas.png"
+    "img":"/assets/bandeiras/Alagoas.png",
+    "keywords":"Bandeira, Bandeira de Alagoas, Capital do Alagoas, Nordeste"
   },
   {
     "nome":"Amapá",
@@ -431,7 +441,8 @@ const estadosArr = [
     "capital":"Macapá",
     "regiao":"Norte",
     "descricao":"O estado do Amapá está localizado na região Norte do brasil e sua capital é Macapá.",
-    "img":"/assets/bandeiras/Amapa.png"
+    "img":"/assets/bandeiras/Amapa.png",
+    "keywords":"Bandeira, Bandeira do Amapá, Capital do Amapá, Norte"
   },
   {
     "nome":"Amazonas",
@@ -439,7 +450,8 @@ const estadosArr = [
     "capital":"Manaus",
     "regiao":"Norte",
     "descricao":"O estado de Amazonas está localizado na região Norte do brasil e sua capital é Manaus.",
-    "img":"/assets/bandeiras/Amazonas.png"
+    "img":"/assets/bandeiras/Amazonas.png",
+    "keywords":"Bandeira, Bandeira do Amazonas, Capital do Amazonas, Norte"
   },
   {
     "nome":"Bahia",
@@ -447,7 +459,8 @@ const estadosArr = [
     "capital":"Salvador",
     "regiao":"Nordeste",
     "descricao":"O estado da Bahia está localizado na região Nordeste do brasil e sua capital é Salvador.",
-    "img":"/assets/bandeiras/Amapa.png"
+    "img":"/assets/bandeiras/Amapa.png",
+    "keywords":"Bandeira, Bandeira da Bahia, Capital da Bahia, Nordeste, Salvador"
   },
   {
     "nome":"Ceará",
@@ -455,7 +468,8 @@ const estadosArr = [
     "capital":"Fortaleza",
     "regiao":"Nordeste",
     "descricao":"O estado de Ceará está localizado na região Nordeste do brasil e sua capital é Fortaleza.",
-    "img":"/assets/bandeiras/Ceara.png"
+    "img":"/assets/bandeiras/Ceara.png",
+    "keywords":"Bandeira, Bandeira do Ceara, Capital do Ceara, Nordeste, Fortaleza"
   },
   {
     "nome":"Distrito Federal",
@@ -463,7 +477,8 @@ const estadosArr = [
     "capital":"Brasília",
     "regiao":"Centro-Oeste",
     "descricao":"O estado do Distrito Federal está localizado na região Centro-Oeste do brasil e sua capital é Brasília. Braília é a capital do Brasil",
-    "img":"/assets/bandeiras/Brasilia.png"
+    "img":"/assets/bandeiras/Brasilia.png",
+    "keywords":"Bandeira, Bandeira do Distrito Federal, Capital do Distrito Federal, Centro-Oeste, Brasilia"
   }
   ,
   {
@@ -472,7 +487,8 @@ const estadosArr = [
     "capital":"Vitória",
     "regiao":"Sudeste",
     "descricao":"O estado do Espírito Santo está localizado na região Sudeste do brasil e sua capital é Vitória.",
-    "img":"/assets/bandeiras/espiritosanto.png"
+    "img":"/assets/bandeiras/espiritosanto.png",
+    "keywords":"Bandeira, Bandeira do Espírito Santo, Capital do Espírito Santo, Sudeste, Vitória"
   }
   ,
   {
@@ -481,7 +497,8 @@ const estadosArr = [
     "capital":"Goiânia",
     "regiao":"Centro-Oeste",
     "descricao":"O estado do Goiás está localizado na região Centro-Oeste do brasil e sua capital é Goiânia.",
-    "img":"/assets/bandeiras/Goias.png"
+    "img":"/assets/bandeiras/Goias.png",
+    "keywords":"Bandeira, Bandeira do Goiás, Capital do Goiás, Centro-Oeste, Goiânia"
   }
 
   
