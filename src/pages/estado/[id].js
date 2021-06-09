@@ -27,6 +27,7 @@ const Estado = ({ estado }) => {
           <div className={styles.overview_panel}>
             <img className={styles.flag} src={estado.img} alt={estado.nome}></img>
             <h1 className={styles.overview_name}>{estado.nome}</h1>
+            <p>{estado.descricao}</p>
           </div>
         </div>
         <div className={styles.container_right}>
