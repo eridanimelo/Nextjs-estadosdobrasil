@@ -433,7 +433,7 @@ const estadosArr = [
    "sigla":"AL",
    "capital":"Maceió",
    "regiao":"Nordeste",
-   "descricao":"O estado de Alagoas está localizado na região Nordeste do brasil e sua capital é Maceió.O estado do Acre está localizado na região Norte do brasil e sua capital é Rio Branco.",
+   "descricao":"O estado de Alagoas está localizado na região Nordeste do brasil e sua capital é Maceió.",
    "img":"/assets/bandeiras/Alagoas.png",
    "keywords":"Bandeira, Bandeira de Alagoas, Capital do Alagoas, Nordeste"
  },
