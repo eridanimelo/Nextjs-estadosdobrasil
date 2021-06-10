@@ -53,7 +53,6 @@ const Layout = ({ children, title = "Estados do Brasil",description, keywords,ur
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <link rel="manifest" href="https://www.estadosdobrasil.com.br/manifest.webmanifest" />
         
-
         <link rel="apple-touch-icon" sizes="57x57" href="https://www.estadosdobrasil.com.br/apple-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="60x60" href="https://www.estadosdobrasil.com.br/apple-icon-60x60.png" />
         <link rel="apple-touch-icon" sizes="72x72" href="https://www.estadosdobrasil.com.br/apple-icon-72x72.png" />
