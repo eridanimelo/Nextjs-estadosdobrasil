@@ -23,6 +23,7 @@ export default function Home({ estados }) {
 
   return (
     <Layout 
+      home
       imgUrl="https://www.estadosdoBrasil.com.br/assets/img/app.png"
       url="https://estadosdoBrasil.com.br"
       description="No Estados do Brasil, podemos encontrar alguns detalhes como as bandeiras de cada estado e suas capitais e regiao."

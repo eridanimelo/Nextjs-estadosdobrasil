@@ -3,8 +3,11 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Brightness6Rounded } from "@material-ui/icons";
 import styles from "./Layout.module.css";
+import Image from 'next/image'
 
-const Layout = ({ children, title = "Estados do Brasil",description, keywords,url, imgUrl }) => {
+import { ArrowBack } from "@material-ui/icons";
+
+const Layout = ({ children, title = "Estados do Brasil",description, keywords,url, imgUrl,home }) => {
   const [theme, setTheme] = useState("light");
 
   useEffect(() => {
@@ -79,19 +82,42 @@ const Layout = ({ children, title = "Estados do Brasil",description, keywords,ur
 
       </Head>
 
-      <header className={styles.header}>
-
       < amp-auto-ads type="adsense"
               data-ad-client="ca-pub-1004938038234969">
       </amp-auto-ads>
-      
-        <Link href="/">
-          Estados do Brasil
-        </Link>
 
-        <button className={styles.themeSwitcher} onClick={switchTheme}>
-          <Brightness6Rounded />
-        </button>
+      <header className={styles.header}>
+
+      {home ? (
+          <>
+            <img className={styles.flag_h} src="/assets/bandeiras/Bandeira do Brasil.png"  />
+
+            <Link href="/">
+              Estados do Brasil
+            </Link>
+
+            <button className={styles.themeSwitcher} onClick={switchTheme}>
+              <Brightness6Rounded />
+            </button>
+           
+          </>
+        ) : (
+          <>
+            <Link href="/">
+              <ArrowBack />
+            </Link>
+
+            <Link href="/">
+              Estados do Brasil
+            </Link>
+
+            <button className={styles.themeSwitcher} onClick={switchTheme}>
+              <Brightness6Rounded />
+            </button>
+          </>
+        )}
+
+        
       </header>
 
       <main className={styles.main}>{children}</main>
