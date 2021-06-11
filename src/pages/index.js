@@ -47,7 +47,7 @@ export default function Home({ estados }) {
       <div >
 
           <h2>Estados do Brasil</h2>
-          <p>
+          <p className={styles.pd}>
             O Brasil é um país com enorme extensão territorial e proporções continentais. Para facilitar sua
             administração e organização política, houve uma divisão de governos, sendo eles: federal, estadual e
             municipal. Assim surgiram os Estados e os municípios.
@@ -61,31 +61,31 @@ export default function Home({ estados }) {
           </p>
           <hr />
           <h2>Estados da Região Norte</h2>
-          <p>
+          <p className={styles.pd}>
             A Região Norte é a maior em extensão territorial do Brasil. É composta de sete estados. São eles: Acre (AC),
             Amapá (AP), Amazonas (AM), Pará (PA), Rondônia (RO), Roraima (RR) e Tocantins (TO).
           </p>
           <hr />
           <h2>Estados da Região Nordeste</h2>
-          <p>
+          <p className={styles.pd}>
             A região nordeste é a terceira maior do País. É composta por nove estados: Maranhão (MA), Piauí (PI), Ceará
             (CE), Rio Grande do Norte (RN), Paraíba (PB), Pernambuco (PE), Alagoas (AL), Sergipe (SE) e Bahia (BA).
           </p>
           <hr />
           <h2>Estados da Região Centro-Oeste</h2>
-          <p>
+          <p className={styles.pd}>
             A região centro-oeste é a segunda maior do Brasil em extensão territorial. É composta por três estados e o
             Distrito Federal (DF). Os estados são: Goiás (GO), Mato Grosso (MT) e Mato Grosso do Sul (MS).
           </p>
           <hr />
           <h2>Estados da Região Sudeste</h2>
-          <p>
+          <p className={styles.pd}>
             A região Sudeste é a mais populosa e desenvolvida do País. É composta por quatro estados: São Paulo (SP),
             Rio de Janeiro (RJ), Minas Gerais (MG) e Espírito Santo (ES).
           </p>
           <hr />
           <h2>Estados da Região Sul</h2>
-          <p>
+          <p className={styles.pd}>
             A Região Sul do Brasil é a menor das cinco regiões do país, com área territorial de 576 774,31 km², sendo
             maior que a área da França metropolitana e menor que o estado Brasileiro de Minas Gerais. É composta de três
             estados: Paraná (PR), Santa Catarina (SC) e Rio Grande do Sul (RS).

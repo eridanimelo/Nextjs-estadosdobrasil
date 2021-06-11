@@ -20,4 +20,10 @@
   .input {
     flex: 2;
   }
+  
+  .pd{
+    color: var(--text-color-secondary);
+    font-weight: 500;
+  }
+
 }
