@@ -61,7 +61,7 @@ const Estado = ({ estado }) => {
            
               
 
-            <svg version="1.1" className={styles.svg_map} xmlns="http://www.w3.org/2000/svg"  width="550px" height="5    60px"  >
+            <svg version="1.1" className={styles.svg_map} xmlns="http://www.w3.org/2000/svg"  width="550px" height="560px"  >
       <g>
       
         <Link href={urlNext+'TO'} >
