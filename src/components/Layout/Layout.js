@@ -122,7 +122,7 @@ const Layout = ({ children, title = "Estados do Brasil",description, keywords,ur
 
       <main className={styles.main}>{children}</main>
 
-      <footer className={styles.footer}>eridani</footer>
+      <footer className={styles.footer}>2021</footer>
     </div>
   );
 };
