@@ -14,6 +14,9 @@ const getEstado = async (sigla) => {
 const Estado = ({ estado }) => {
   const urlNext = 'https://estadosdobrasil.com.br/estado/'
   const urlT = urlNext+estado.sigla;
+
+  const dddsa = estado.nome+ ': capital, bandeira, sigla, mapa, região';
+
   return (
 
     <Layout 
@@ -480,7 +483,7 @@ const estadosArr = [
     "regiao":"Norte",
     "descricao":"O estado do Acre está localizado na região Norte do Brasil e sua capital é Rio Branco. Faz divisa com duas unidades federativas: Amazonas, Rondônia e faz fronteira com dois países: a Bolívia e Peru.",
     "img":"/assets/bandeiras/Acre.png",
-    "keywords":"Bandeira, Bandeira do Acre, Capital do Acre, Norte",
+    "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Acre, Capital do Acre, Norte",
  },
  {
    "nome":"Alagoas",
@@ -489,7 +492,7 @@ const estadosArr = [
    "regiao":"Nordeste",
    "descricao":"O estado de Alagoas está localizado na região Nordeste do Brasil e sua capital é Maceió. Faz divisa com três unidades federativas: Pernambuco, Sergipe, Bahia.",
    "img":"/assets/bandeiras/Alagoas.png",
-   "keywords":"Bandeira, Bandeira de Alagoas, Capital do Alagoas, Nordeste",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira de Alagoas, Capital do Alagoas, Nordeste",
  },
  {
    "nome":"Amapá",
@@ -498,7 +501,7 @@ const estadosArr = [
    "regiao":"Norte",
    "descricao":"O estado do Amapá está localizado na região Norte do Brasil e sua capital é Macapá. Faz divisa com uma unidade federativa: Pará; e faz fronteira com dois países: Guiana Francesa e Suriname.",
    "img":"/assets/bandeiras/Amapa.png",
-   "keywords":"Bandeira, Bandeira do Amapá, Capital do Amapá, Norte",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Amapá, Capital do Amapá, Norte",
  },
  {
    "nome":"Amazonas",
@@ -507,7 +510,7 @@ const estadosArr = [
    "regiao":"Norte",
    "descricao":"O estado de Amazonas está localizado na região Norte do Brasil e sua capital é Manaus. Faz divisa com cinco unidades federativas: Pará, Mato Grosso, Rondônia, Acre, Roraima; e faz fronteira com dois países: Venezuela e Peru.",
    "img":"/assets/bandeiras/Amazonas.png",
-   "keywords":"Bandeira, Bandeira do Amazonas, Capital do Amazonas, Norte",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Amazonas, Capital do Amazonas, Norte",
  },
  {
    "nome":"Bahia",
@@ -516,7 +519,7 @@ const estadosArr = [
    "regiao":"Nordeste",
    "descricao":"O estado da Bahia está localizado na região Nordeste do Brasil e sua capital é Salvador. Faz divisa com oito unidades federativas: Minas Gerais, Espírito Santo, Goiás, Tocantins, Piauí, Pernambuco, Alagoas e Sergipe.",
    "img":"/assets/bandeiras/Amapa.png",
-   "keywords":"Bandeira, Bandeira da Bahia, Capital da Bahia, Nordeste, Salvador",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira da Bahia, Capital da Bahia, Nordeste, Salvador",
    
  },
  {
@@ -526,7 +529,7 @@ const estadosArr = [
    "regiao":"Nordeste",
    "descricao":"O estado de Ceará está localizado na região Nordeste do Brasil e sua capital é Fortaleza. Faz divisa com quatro unidades federativas: Pernambuco, Rio Grande do Norte, Paraíba e Pernambuco.",
    "img":"/assets/bandeiras/Ceara.png",
-   "keywords":"Bandeira, Bandeira do Ceara, Capital do Ceara, Nordeste, Fortaleza",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Ceara, Capital do Ceara, Nordeste, Fortaleza",
    
  },
  {
@@ -536,7 +539,7 @@ const estadosArr = [
    "regiao":"Centro-Oeste",
    "descricao":"O estado do Distrito Federal está localizado na região Centro-Oeste do Brasil e sua capital é Brasília. Brasília é a capital do Brasil: Faz divisa com duas unidades federativas: Goiás e Minas Gerais.",
    "img":"/assets/bandeiras/Brasilia.png",
-   "keywords":"Bandeira, Bandeira do Distrito Federal, Capital do Distrito Federal, Centro-Oeste, Brasilia",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Distrito Federal, Capital do Distrito Federal, Centro-Oeste, Brasilia",
    
  }
  ,
@@ -547,7 +550,7 @@ const estadosArr = [
    "regiao":"Sudeste",
    "descricao":"O estado do Espírito Santo está localizado na região Sudeste do Brasil e sua capital é Vitória. Faz divisa com três unidades federativas: Minas Gerais, Bahia e Rio de Janeiro.",
    "img":"/assets/bandeiras/espiritosanto.png",
-   "keywords":"Bandeira, Bandeira do Espírito Santo, Capital do Espírito Santo, Sudeste, Vitória",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Espírito Santo, Capital do Espírito Santo, Sudeste, Vitória",
    
  }
  ,
@@ -558,7 +561,7 @@ const estadosArr = [
    "regiao":"Centro-Oeste",
    "descricao":"O estado do Goiás está localizado na região Centro-Oeste do Brasil e sua capital é Goiânia. Faz divisa com cinco unidades federativas: Mato Grosso do Sul, Mato Grosso, Tocantins, Minas Gerais e Distrito Federal.",
    "img":"/assets/bandeiras/Goias.png",
-   "keywords":"Bandeira, Bandeira do Goiás, Capital do Goiás, Centro-Oeste, Goiânia",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Goiás, Capital do Goiás, Centro-Oeste, Goiânia",
    
  },
  {
@@ -568,7 +571,7 @@ const estadosArr = [
    "regiao":"Nordeste",
    "descricao":"O estado do Maranhão está localizado na região Nordeste do Brasil e sua capital é São Luís. Faz divisa com três unidades federativas: Piauí, Tocantins e Pará",
    "img":"/assets/bandeiras/Maranhao.png",
-   "keywords":"Bandeira, Bandeira do Maranhão, Capital do Maranhão, Nordeste, São Luís",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Maranhão, Capital do Maranhão, Nordeste, São Luís",
    
  },
  {
@@ -578,7 +581,7 @@ const estadosArr = [
    "regiao":"Centro-Oeste",
    "descricao":"O estado do Mato Grosso está localizado na região Centro-Oeste do Brasil e sua capital é Cuiabá. Faz divisa com três unidades federativas: Amazonas, Pará, Tocantins, Goiás, Mato Grosso do Sul, Rondônia; e faz fronteira com um país: Bolívia.",
    "img":"/assets/bandeiras/MatoGrosso.png",
-   "keywords":"Bandeira, Bandeira do Mato Grosso, Capital do Mato Grosso, Centro-Oeste, Cuiabá",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Mato Grosso, Capital do Mato Grosso, Centro-Oeste, Cuiabá",
    
  },
  {
@@ -588,7 +591,7 @@ const estadosArr = [
    "regiao":"Centro-Oeste",
    "descricao":"O estado do Mato Grosso do Sul está localizado na região Centro-Oeste do Brasil e sua capital é Campo Grande. Faz divisa com três unidades federativas: Mato Grosso, Goiás e Minas Gerais, São Paulo, Paraná; e faz fronteira com dois países: Paraguai e Bolívia.",
    "img":"/assets/bandeiras/MatoGrossoDoSul.png",
-   "keywords":"Bandeira, Bandeira do Mato Grosso do Sul, Capital do Mato Grosso do Sul, Centro-Oeste, Campo Grande",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Mato Grosso do Sul, Capital do Mato Grosso do Sul, Centro-Oeste, Campo Grande",
    
  },
  {
@@ -598,7 +601,7 @@ const estadosArr = [
    "regiao":"Sudeste",
    "descricao":"O estado de Minas Gerais está localizado na região Sudeste do Brasil e sua capital é Belo Horizonte. Faz divisa com sete unidades federativas: São Paulo, Mato Grosso do Sul, Goiás, Distrito Federal, Bahia, Espírito Santo, Rio de Janeiro.",
    "img":"/assets/bandeiras/MinasGerais.png",
-   "keywords":"Bandeira, Bandeira de Minas Gerais, Capital de Minas Gerais, Sudeste, Belo Horizonte",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira de Minas Gerais, Capital de Minas Gerais, Sudeste, Belo Horizonte",
    
  },
  {
@@ -608,7 +611,7 @@ const estadosArr = [
    "regiao":"Norte",
    "descricao":"O estado do Pará está localizado na região Norte do Brasil e sua capital é Belém. Faz divisa com seis unidades federativas:  Amapá, Roraima, Amazonas, Mato Grosso, Tocantins, Maranhão; e faz fronteira com dois países: Suriname e Guiana.",
    "img":"/assets/bandeiras/Para.png",
-   "keywords":"Bandeira, Bandeira do Pará, Capital do Pará, Norte Belém",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Pará, Capital do Pará, Norte Belém",
    
  },
  {
@@ -618,7 +621,7 @@ const estadosArr = [
    "regiao":"Nordeste",
    "descricao":"O estado da Paraíba está localizado na região Nordeste do Brasil e sua capital é João Pessoa. Faz divisa com três unidades federativas: Rio Grande do Norte, Pernambuco e Ceará.",
    "img":"/assets/bandeiras/Paraiba.png",
-   "keywords":"Bandeira, Bandeira da Paraíba, Capital da Paraíba, Centro-Oeste, João Pessoa",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira da Paraíba, Capital da Paraíba, Centro-Oeste, João Pessoa",
    
  },
  {
@@ -628,7 +631,7 @@ const estadosArr = [
    "regiao":"Sul",
    "descricao":"O estado do Paraná está localizado na região Sul do Brasil e sua capital é Curitiba. Faz divisa com três unidades federativas: Mato Grosso do Sul, São Paulo, Santa Catarina; e faz fronteira com dois países: Argentina e Paraguai.",
    "img":"/assets/bandeiras/Parana.png",
-   "keywords":"Bandeira, Bandeira do Paraná, Capital do Paraná, Sul, Curitiba",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Paraná, Capital do Paraná, Sul, Curitiba",
    
  },
  {
@@ -638,7 +641,7 @@ const estadosArr = [
    "regiao":"Nordeste",
    "descricao":"O estado de Pernambuco está localizado na região Nordeste do Brasil e sua capital é Recife. Faz divisa com cinco unidades federativas: Paraíba, Ceará, Alagoas, Bahia e Piauí.",
    "img":"/assets/bandeiras/Pernambuco.png",
-   "keywords":"Bandeira, Bandeira do Pernambuco, Capital do Pernambuco, Nordeste, Recife",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Pernambuco, Capital do Pernambuco, Nordeste, Recife",
    
  },{
   "nome":"Piauí",
@@ -647,7 +650,7 @@ const estadosArr = [
   "regiao":"Nordeste",
   "descricao":"O estado do Piauí está localizado na região Nordeste do Brasil e sua capital é Teresina. Faz divisa com cinco unidades federativas: Ceará, Pernambuco, Bahia, Tocantins e Maranhão.",
   "img":"/assets/bandeiras/Piaui.png",
-  "keywords":"Bandeira, Bandeira do Piauí, Capital do Piauí, Nordeste, Teresina",
+  "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Piauí, Capital do Piauí, Nordeste, Teresina",
   
 },{
    "nome":"Rio de Janeiro",
@@ -656,7 +659,7 @@ const estadosArr = [
    "regiao":"Sudeste",
    "descricao":"O estado do Rio de Janeiro está localizado na região Sudeste do Brasil e sua capital é Rio de Janeiro. Faz divisa com três unidades federativas: Minas Gerais, Espírito Santo e São Paulo.",
    "img":"/assets/bandeiras/RioDeJaneiro.png",
-   "keywords":"Bandeira, Bandeira do Rio de Janeiro, Capital do Rio de Janeiro, Sudeste, Rio de Janeiro",
+   "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Rio de Janeiro, Capital do Rio de Janeiro, Sudeste, Rio de Janeiro",
    
  },{
   "nome":"Rio Grande do Norte",
@@ -665,7 +668,7 @@ const estadosArr = [
   "regiao":"Nordeste",
   "descricao":"O estado do Rio Grande do Norte está localizado na região Nordeste do Brasil e sua capital é Natal. Faz divisa com três unidades federativas: Paraíba e Ceará.",
   "img":"/assets/bandeiras/RioGrandeDoNorte.png",
-  "keywords":"Bandeira, Bandeira do Rio Grande do Norte, Capital do Rio Grande do Norte, Nordeste, Natal",
+  "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Rio Grande do Norte, Capital do Rio Grande do Norte, Nordeste, Natal",
    
 },{
   "nome":"Rio Grande do Sul",
@@ -674,7 +677,7 @@ const estadosArr = [
   "regiao":"Sul",
   "descricao":"O estado do Rio Grande do Sul está localizado na região Sul do Brasil e sua capital é Porto Alegre. Faz divisa com uma unidade federativa: Santa Catarina; e faz fronteira com dois países: Uruguai e Argentina.",
   "img":"/assets/bandeiras/RioGrandeDoSul.png",
-  "keywords":"Bandeira, Bandeira do Rio Grande do Sul, Capital do Rio Grande do Sul, Sul, Porto Alegre",
+  "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Rio Grande do Sul, Capital do Rio Grande do Sul, Sul, Porto Alegre",
   
 },{
   "nome":"Rondônia",
@@ -683,7 +686,7 @@ const estadosArr = [
   "regiao":"Norte",
   "descricao":"O estado de Rondônia está localizado na região Norte do Brasil e sua capital é Porto Velho. Faz divisa com três unidades federativas: Acre, Amazonas, Mato Grosso; e faz fronteira com um país: Bolívia.",
   "img":"/assets/bandeiras/Rondonia.png",
-  "keywords":"Bandeira, Bandeira de Rondônia, Capital de Rondônia, Norte, Porto Velho",
+  "keywords":"Capital, sigla, mapa,Bandeira, Bandeira de Rondônia, Capital de Rondônia, Norte, Porto Velho",
   
 },{
   "nome":"Roraima",
@@ -692,7 +695,7 @@ const estadosArr = [
   "regiao":"Norte",
   "descricao":"O estado de Roraima está localizado na região Norte do Brasil e sua capital é Boa Vista. Faz divisa com duas unidades federativas: Pará, e Amazona; e faz fronteira com dois países: Venezuela e Guiana.",
   "img":"/assets/bandeiras/Roraima.png",
-  "keywords":"Bandeira, Bandeira de Roraima, Capital de Roraima, Norte, Boa Vista",
+  "keywords":"Capital, sigla, mapa,Bandeira, Bandeira de Roraima, Capital de Roraima, Norte, Boa Vista",
   
 },{
   "nome":"Santa Catarina",
@@ -701,7 +704,7 @@ const estadosArr = [
   "regiao":"Sul",
   "descricao":"O estado de Santa Catarina está localizado na região Sul do Brasil e sua capital é Florianópolis. Faz divisa com duas unidades federativas: Paraná, Rio Grande do Sul; e faz fronteira com um país: Argentina.",
   "img":"/assets/bandeiras/SantaCatarina.png",
-  "keywords":"Bandeira, Bandeira de Santa Catarina, Capital de Santa Catarina, Sul, Florianópolis",
+  "keywords":"Capital, sigla, mapa,Bandeira, Bandeira de Santa Catarina, Capital de Santa Catarina, Sul, Florianópolis",
   
 },{
   "nome":"São Paulo",
@@ -710,7 +713,7 @@ const estadosArr = [
   "regiao":"Sudeste",
   "descricao":"O estado de São Paulo está localizado na região Sudeste do Brasil e sua capital é São Paulo. Faz divisa com quatro unidades federativas: Minas Gerais, Paraná, Rio de Janeiro, Mato Grosso do Sul.",
   "img":"/assets/bandeiras/SaoPaulo.png",
-  "keywords":"Bandeira, Bandeira de São Paulo, Capital de São Paulo, Sudeste, São Paulo",
+  "keywords":"Capital, sigla, mapa,Bandeira, Bandeira de São Paulo, Capital de São Paulo, Sudeste, São Paulo",
   
 },{
   "nome":"Sergipe",
@@ -719,7 +722,7 @@ const estadosArr = [
   "regiao":"Nordeste",
   "descricao":"O estado do Sergipe está localizado na região Nordeste do Brasil e sua capital é Aracaju. Faz divisa com duas unidades federativas: Bahia e Alagoas.",
   "img":"/assets/bandeiras/Sergipe.png",
-  "keywords":"Bandeira, Bandeira do Sergipe, Capital do Sergipe, Nordeste, Aracaju",
+  "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Sergipe, Capital do Sergipe, Nordeste, Aracaju",
   
 },{
   "nome":"Tocantins",
@@ -728,7 +731,7 @@ const estadosArr = [
   "regiao":"Norte",
   "descricao":"O estado do Tocantins está localizado na região Norte do Brasil e sua capital é Palmas. Faz divisa com seis unidades federativas:  Goiás, Mato Grosso, Pará, Maranhão, Piauí, Bahia.",
   "img":"/assets/bandeiras/Tocantins.png",
-  "keywords":"Bandeira, Bandeira do Tocantins, Capital do Tocantins, Norte, Palmas",
+  "keywords":"Capital, sigla, mapa,Bandeira, Bandeira do Tocantins, Capital do Tocantins, Norte, Palmas",
   
 }
 

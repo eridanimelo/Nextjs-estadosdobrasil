@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 import { ArrowBack } from "@material-ui/icons";
 
-const Layout = ({ children, title = "Estados do Brasil",description, keywords,url, imgUrl,home }) => {
+const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandeiras, mapas",description, keywords,url, imgUrl,home }) => {
   const [theme, setTheme] = useState("light");
 
   useEffect(() => {
@@ -122,7 +122,7 @@ const Layout = ({ children, title = "Estados do Brasil",description, keywords,ur
 
       <main className={styles.main}>{children}</main>
 
-      <footer className={styles.footer}>2021</footer>
+      <footer className={styles.footer}>2021 <br /></footer>
     </div>
   );
 };

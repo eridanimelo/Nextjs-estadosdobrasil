@@ -24,10 +24,10 @@ export default function Home({ estados }) {
   return (
     <Layout 
       home
-      imgUrl="https://www.estadosdoBrasil.com.br/assets/img/app.png"
-      url="https://estadosdoBrasil.com.br"
-      description="No Estados do Brasil, podemos encontrar alguns detalhes como as bandeiras de cada estado e suas capitais e regiao."
-      keywords="Bandeiras Brasileiras, Bandeiras do Brasil, estados Brasileiros, Norte, Sul, Nordeste, Centro-Oeste, Sudeste, Capitais dos Estados, Mapa, Mapa do Brasil, Regiao de cada estado.">
+      imgUrl="https://www.estadosdobrasil.com.br/assets/img/app.png"
+      url="https://estadosdobrasil.com.br"
+      description="Arqui no estadosdobrasil, podemos encontrar alguns detalhes como as bandeiras de cada estado e suas capitais e regiões."
+      keywords="Estados do Brasil, Bandeiras dos estados,capitais, siglas, Bandeiras, Mapa">
 
         
       <div className={styles.inputContainer}>
