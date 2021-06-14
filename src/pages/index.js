@@ -90,6 +90,10 @@ export default function Home({ estados }) {
             maior que a área da França metropolitana e menor que o estado Brasileiro de Minas Gerais. É composta de três
             estados: Paraná (PR), Santa Catarina (SC) e Rio Grande do Sul (RS).
           </p>
+          <hr />
+          <h2>Sobre o Brasil</h2>
+          <p className={styles.pd}>O Brasil está localizado na América do Sul, seu território é banhado pelo oceano Atlântico e faz fronteira com 10 países da América do Sul. Ao norte, com a Guiana Francesa, Suriname, Guiana, Venezuela e Colômbia; a noroeste, com o Peru; a oeste, com a Bolívia, Paraguai e Argentina; e ao sul, com o Uruguai.</p>
+          <p className={styles.pd}>O país é o maior da América do Sul e o quinto maior do mundo, superado apenas pela Rússia, Canadá, China e Estados Unidos. A localização geográfica no globo faz com que haja uma grande incidência de raios solares sobre a superfície do país, por isso o clima predominante é o tropical, porém existem outras características climáticas, como o equatorial, o subtropical e o semiárido.</p>
 
         </div>
 
