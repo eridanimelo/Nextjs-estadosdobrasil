@@ -12,7 +12,7 @@ const getEstado = async (sigla) => {
 };
 
 const Estado = ({ estado }) => {
-  const urlNext = 'https://estadosdobrasil.com.br/estado/'
+  const urlNext = 'https://www.estadosdobrasil.com.br/estado/'
   const urlT = urlNext+estado.sigla;
 
   var cidades = estado.cidades.map((c)=> <li>{c}</li>);

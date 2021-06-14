@@ -25,7 +25,7 @@ export default function Home({ estados }) {
     <Layout 
       home
       imgUrl="https://www.estadosdobrasil.com.br/assets/img/app.png"
-      url="https://estadosdobrasil.com.br"
+      url="https://www.estadosdobrasil.com.br"
       description="Arqui no estadosdobrasil, podemos encontrar alguns detalhes como as bandeiras de cada estado e suas capitais e regiões."
       keywords="Estados do Brasil, Bandeiras dos estados,capitais, siglas, Bandeiras, Mapa,bandeiras dos estados brasileiros,bandeiras das unidades federativas,bandeiras do brasil,bandeiras dos estados do brasil">
 
