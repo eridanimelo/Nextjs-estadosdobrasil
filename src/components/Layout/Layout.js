@@ -3,7 +3,6 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Brightness6Rounded } from "@material-ui/icons";
 import styles from "./Layout.module.css";
-import Image from 'next/image'
 
 import { ArrowBack } from "@material-ui/icons";
 
@@ -122,7 +121,9 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
 
       <main className={styles.main}>{children}</main>
 
-      <footer className={styles.footer}>2021 <br /></footer>
+      <footer className={styles.footer}>2021 - <Link href="privacidade/politica-de-privacidade"> Política de Privacidade</Link>
+      <br />
+      </footer>
     </div>
   );
 };

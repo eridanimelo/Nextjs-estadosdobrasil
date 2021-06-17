@@ -4,6 +4,7 @@ import Layout from "../components/Layout/Layout";
 import SearchInput from "../components/SearchInput/SearchInput";
 import styles from "../styles/Home.module.css";
 
+
 export default function Home({ estados }) {
   const [keyword, setKeyword] = useState("");
 
@@ -26,7 +27,7 @@ export default function Home({ estados }) {
       home
       imgUrl="https://www.estadosdobrasil.com.br/assets/img/app.png"
       url="https://www.estadosdobrasil.com.br"
-      description="Arqui no estadosdobrasil, podemos encontrar alguns detalhes como as bandeiras de cada estado e suas capitais e regiões."
+      description="Aqui no estadosdobrasil, podemos encontrar alguns detalhes como as bandeiras de cada estado e suas capitais e regiões."
       keywords="Estados do Brasil, Bandeiras dos estados,capitais, siglas, Bandeiras, Mapa,bandeiras dos estados brasileiros,bandeiras das unidades federativas,bandeiras do brasil,bandeiras dos estados do brasil">
 
         
@@ -96,6 +97,9 @@ export default function Home({ estados }) {
           <p className={styles.pd}>O país é o maior da América do Sul e o quinto maior do mundo, superado apenas pela Rússia, Canadá, China e Estados Unidos. A localização geográfica no globo faz com que haja uma grande incidência de raios solares sobre a superfície do país, por isso o clima predominante é o tropical, porém existem outras características climáticas, como o equatorial, o subtropical e o semiárido.</p>
 
         </div>
+        <br />
+        <br />
+        
 
     </Layout>
   );
