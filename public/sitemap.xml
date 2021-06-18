@@ -6,151 +6,149 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+  <url>
+    <loc>https://www.estadosdobrasil.com.br</loc>
+    <lastmod>2021-06-08T10:05:20+00:00</lastmod>
+  </url>
 
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/AC</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br</loc>
-  <lastmod>2021-06-08T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/AM</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://estadosdobrasil.com.br</loc>
-  <lastmod>2021-06-08T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/AL</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/AC</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/AP</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/AM</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/BA</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/AL</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/CE</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/AP</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/DF</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/BA</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/ES</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/CE</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/GO</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/DF</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/MA</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/ES</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/MT</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/GO</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/MS</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/MA</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/MG</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/MT</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/PA</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/MS</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/PB</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/MG</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/PR</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/PA</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/PE</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/PB</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/PI</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/PR</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/RJ</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/PE</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/RN</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/PI</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/RS</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/RJ</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/RO</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/RN</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/RR</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/RS</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/SC</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/RO</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/SP</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/RR</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/SE</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/SC</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/estado/TO</loc>
+    <lastmod>2021-06-10T10:05:20+00:00</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/SP</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
-
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/SE</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
-
-<url>
-  <loc>https://www.estadosdobrasil.com.br/estado/TO</loc>
-  <lastmod>2021-06-10T10:05:20+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.estadosdobrasil.com.br/privacidade/politica-de-privacidade</loc>
+    <lastmod>2021-06-18T16:05:20+00:00</lastmod>
+  </url>
 
 </urlset>

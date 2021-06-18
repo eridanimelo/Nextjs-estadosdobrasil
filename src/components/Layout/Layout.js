@@ -121,8 +121,8 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
 
       <main className={styles.main}>{children}</main>
 
-      <footer className={styles.footer}>2021 - <Link href="privacidade/politica-de-privacidade"> Política de Privacidade</Link>
-      <br />
+      <footer className={styles.footer}>eridani.melo@gmail.com - 2021 - <Link href="privacidade/politica-de-privacidade"> Política de Privacidade</Link>
+          <br /><br /><br />
       </footer>
     </div>
   );
