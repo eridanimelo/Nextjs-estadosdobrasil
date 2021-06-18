@@ -39,8 +39,6 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
         <link rel="icon"  href="https://www.estadosdobrasil.com.br/favicon.ico" />
         <meta name="description" content={description} />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
         <meta name="keywords" content={keywords}/>
 
         <meta property="og:locale" content="pt_BR" />
