@@ -39,6 +39,8 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
         <link rel="icon"  href="https://www.estadosdobrasil.com.br/favicon.ico" />
         <meta name="description" content={description} />
 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <meta name="keywords" content={keywords}/>
 
         <meta property="og:locale" content="pt_BR" />
@@ -49,6 +51,8 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
         <meta property="og:site_name" content="Estados do Brasil" />
 
         <meta property="og:image" content={imgUrl} />
+
+        
 
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap" rel="stylesheet" />
@@ -91,9 +95,16 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
           <>
             <img className={styles.flag_h} src="/assets/bandeiras/Bandeira do Brasil.png"  />
 
-            <Link href="/">
+            
               Estados do Brasil
-            </Link>
+            
+
+
+            
+              <a className={styles.andr_h} href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
+                <img src="assets/img/android.png" alt="ANDROID" width="108" />
+              </a>
+  
 
             <button className={styles.themeSwitcher} onClick={switchTheme}>
               <Brightness6Rounded />
@@ -106,9 +117,14 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
               <ArrowBack />
             </Link>
 
-            <Link href="/">
+            
               Estados do Brasil
-            </Link>
+            
+              <a className={styles.andr_h} href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
+                <img src="../assets/img/android.png" alt="ANDROID" width="108" />
+              </a>
+
+              
 
             <button className={styles.themeSwitcher} onClick={switchTheme}>
               <Brightness6Rounded />

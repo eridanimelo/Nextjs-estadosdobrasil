@@ -43,3 +43,11 @@
   -moz-box-shadow:    4px 5px 13px 0px rgba(50, 50, 50, 0.69);
   box-shadow:         4px 5px 13px 0px rgba(50, 50, 50, 0.69);
 }
+
+.andr_h{
+  width: 100px;
+  border-radius: 8px !important;
+  -webkit-box-shadow: 4px 5px 13px 0px rgba(50, 50, 50, 0.69);
+  -moz-box-shadow:    4px 5px 13px 0px rgba(50, 50, 50, 0.69);
+  box-shadow:         4px 5px 13px 0px rgba(50, 50, 50, 0.69);
+}
