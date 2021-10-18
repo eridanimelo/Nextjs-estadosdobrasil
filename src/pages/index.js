@@ -159,7 +159,7 @@ const estadosArr = [
    "capital":"Salvador",
    "regiao":"Nordeste",
    "descricao":"O estado da Bahia está localizado na região Nordeste do Brasil e sua capital é Salvador.",
-   "img":"/assets/bandeiras/Amapa.png",
+   "img":"/assets/bandeiras/Bahia.png",
    "keywords":"Bandeira, Bandeira da Bahia, Capital da Bahia, Nordeste, Salvador"
  },
  {
