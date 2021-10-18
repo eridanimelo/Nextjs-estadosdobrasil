@@ -74,36 +74,34 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
         <meta name="msapplication-TileColor" content="#20833C" />
         <meta name="msapplication-TileImage" content="https://www.estadosdobrasil.com.br/ms-icon-144x144.png" />
         <meta name="theme-color" content="#20833C" />
-
-        <script data-ad-client="ca-pub-1004938038234969" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        
-        <script async custom-element="amp-auto-ads"
-                src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
       </Head>
-
-      < amp-auto-ads type="adsense"
-              data-ad-client="ca-pub-1004938038234969">
-      </amp-auto-ads>
 
       <header className={styles.header}>
 
       {home ? (
           <>
-            <img className={styles.flag_h} src="/assets/bandeiras/Bandeira do Brasil.png"  />
 
-            
+            <div>
+              <img className={styles.flag_h} src="/assets/bandeiras/Bandeira do Brasil.png"  /><br />
               Estados do Brasil
+            </div>
             
+            <div>
               <a  href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
-                <img src="assets/img/android.png" alt="ANDROID" width="108" />
+                <img src="assets/img/android.png" alt="ANDROID" width="100" />
               </a>
-  
+              {/* <a  href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
+                <img src="assets/img/android.png" alt="ANDROID" width="100" />
+              </a> */}
+            </div>
 
-            <button className={styles.themeSwitcher} onClick={switchTheme}>
-              <Brightness6Rounded />
-            </button>
+            <div>
+              <button className={styles.themeSwitcher} onClick={switchTheme}>
+                <Brightness6Rounded />
+              </button>
+            </div>
            
           </>
         ) : (
@@ -115,12 +113,15 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
             
               Estados do Brasil
             
-              <a  href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
-                <img src="../assets/img/android.png" alt="ANDROID" width="108" />
+            <div>
+            <a  href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
+                <img src="../assets/img/android.png" alt="ANDROID" width="100" />
               </a>
-
-              
-
+              {/* <a  href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
+                <img src="../assets/img/android.png" alt="ANDROID" width="100" />
+              </a> */}
+              </div>
+            
             <button className={styles.themeSwitcher} onClick={switchTheme}>
               <Brightness6Rounded />
             </button>
@@ -129,7 +130,7 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
 
         
       </header>
-
+          <br />
       <main className={styles.main}>{children}</main>
 
       <footer className={styles.footer}>
