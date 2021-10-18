@@ -96,10 +96,7 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
             
               Estados do Brasil
             
-
-
-            
-              <a className={styles.andr_h} href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
+              <a  href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
                 <img src="assets/img/android.png" alt="ANDROID" width="108" />
               </a>
   
@@ -118,7 +115,7 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
             
               Estados do Brasil
             
-              <a className={styles.andr_h} href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
+              <a  href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
                 <img src="../assets/img/android.png" alt="ANDROID" width="108" />
               </a>
 
@@ -135,7 +132,11 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
 
       <main className={styles.main}>{children}</main>
 
-      <footer className={styles.footer}>eridani.melo@gmail.com - 2021 - <Link href="privacidade/politica-de-privacidade"> Política de Privacidade</Link>
+      <footer className={styles.footer}>
+     
+          <strong>Contribua:</strong> PIX - eridani.melo@gmail.com
+          <br /><br /><br />
+          eridani.melo@gmail.com - 2021 - <Link href="privacidade/politica-de-privacidade"> Política de Privacidade</Link>
           <br /><br /><br />
       </footer>
     </div>
