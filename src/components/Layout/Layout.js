@@ -89,12 +89,13 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
             </div>
             
             <div>
-              <a  href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
+              <a className={styles.mim} href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" 
+              target="_blank">
                 <img src="assets/img/android.png" alt="ANDROID" width="100" />
               </a>
-              {/* <a  href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
-                <img src="assets/img/android.png" alt="ANDROID" width="100" />
-              </a> */}
+              <a  href="https://apps.apple.com/app/iestadosdobrasil/id1602615791" target="_blank">
+                <img src="assets/img/ios.png" alt="IOS" width="90" />
+              </a> 
             </div>
 
             <div>
@@ -114,12 +115,12 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
               Estados do Brasil
             
             <div>
-            <a  href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
+            <a className={styles.mim} href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
                 <img src="../assets/img/android.png" alt="ANDROID" width="100" />
               </a>
-              {/* <a  href="https://play.google.com/store/apps/details?id=br.com.capitaisbrasileiras" target="_blank">
-                <img src="../assets/img/android.png" alt="ANDROID" width="100" />
-              </a> */}
+              <a  href="https://apps.apple.com/app/iestadosdobrasil/id1602615791" target="_blank">
+                <img src="../assets/img/ios.png" alt="IOS" width="90" />
+              </a>
               </div>
             
             <button className={styles.themeSwitcher} onClick={switchTheme}>

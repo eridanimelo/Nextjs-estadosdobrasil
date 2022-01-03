@@ -54,3 +54,7 @@
   -moz-box-shadow:    4px 5px 13px 0px rgba(50, 50, 50, 0.69);
   box-shadow:         4px 5px 13px 0px rgba(50, 50, 50, 0.69);
 }
+
+.mim{
+  margin-right: 5px;
+}
