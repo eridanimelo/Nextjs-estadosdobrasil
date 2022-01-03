@@ -132,7 +132,7 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
         
       </header>
           <br />
-          <span className={styles.pix}>Contribua: PIX - eridani.melo@gmail.com</span>
+          
       <main className={styles.main}>{children}</main>
 
       <footer className={styles.footer}>
