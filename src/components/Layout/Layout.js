@@ -137,7 +137,6 @@ const Layout = ({ children, title = "Estados do Brasil: capitais, siglas, bandei
 
       <footer className={styles.footer}>
      
-          <strong>Contribua:</strong> PIX - eridani.melo@gmail.com
           <br /><br /><br />
           eridani.melo@gmail.com - 2021 - <Link href="privacidade/politica-de-privacidade"> Política de Privacidade</Link>
           <br /><br /><br />
