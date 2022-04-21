@@ -1,6 +1,6 @@
 {
   "name": "estados-do-brasil-next",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,7 +10,7 @@
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
-    "next": "10.2.3",
+    "next": "^12.1.5",
     "next-seo": "^4.24.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
