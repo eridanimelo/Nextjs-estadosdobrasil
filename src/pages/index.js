@@ -3,7 +3,7 @@ import EstadosTabela from "../components/EstadosTabela/EstadosTabela";
 import Layout from "../components/Layout/Layout";
 import SearchInput from "../components/SearchInput/SearchInput";
 import styles from "../styles/Home.module.css";
-
+import Script from "next/script";
 
 export default function Home({ estados }) {
   const [keyword, setKeyword] = useState("");
@@ -23,6 +23,15 @@ export default function Home({ estados }) {
   };
 
   return (
+<>
+    <Script
+   id="Adsense-id"
+   data-ad-client="ca-pub-1004938038234969"
+   async="true"
+   strategy="beforeInteractive"
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+/>
+
     <Layout 
       home
       imgUrl="https://www.estadosdobrasil.com.br/assets/img/app.png"
@@ -102,6 +111,7 @@ export default function Home({ estados }) {
         
 
     </Layout>
+    </>
   );
 }
 
